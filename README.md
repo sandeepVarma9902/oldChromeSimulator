@@ -1,8 +1,10 @@
 # Privacy Policy — Old Chrome Simulator
 
-Old Chrome Simulator does not collect, store, or transmit any personal data.
+# Privacy Policy — Old Chrome Simulator
 
-## Data Usage
+Old Chrome Simulator does not collect, store, or transmit any personal or browsing data.
+
+## Data Storage
 
 The extension stores only user preferences locally using Chrome's `chrome.storage.local` API. This includes:
 
@@ -10,25 +12,33 @@ The extension stores only user preferences locally using Chrome's `chrome.storag
 
 This data:
 
-* Is stored only on the user's device
-* Is never transmitted to external servers
-* Is never shared with the developer or third parties
+* Remains on the user's device
+* Is never transmitted externally
+* Is never accessible to the developer or third parties
 
-## Network Activity
+## Website Access
 
-The extension modifies request headers (User-Agent) locally in the browser to simulate different Chrome versions. No browsing data is collected, logged, or transmitted.
+The extension runs on all websites in order to simulate older Chrome versions consistently. It modifies request headers (User-Agent) and injects compatibility patches directly within the browser.
 
-## Code Injection
+This access is used solely for functionality and not for tracking, monitoring, or collecting user activity.
 
-Scripts are injected into web pages solely to provide compatibility patches for missing JavaScript APIs. These scripts:
+## Script Injection
 
-* Do not collect or transmit any user data
-* Run only to simulate browser behavior
+Scripts are injected into web pages to provide compatibility patches for missing or unsupported JavaScript APIs in older Chrome versions.
+
+These scripts:
+
+* Do not collect or transmit data
+* Do not interact with user inputs beyond technical compatibility adjustments
+
+## Network Requests
+
+The extension modifies outgoing request headers locally in the browser to simulate different Chrome versions. It does not intercept or log network traffic.
 
 ## Third Parties
 
-This extension does not use any third-party analytics, tracking, or external services.
+No third-party services, analytics, or tracking mechanisms are used.
 
 ## Contact
 
-If you have questions, please open an issue on the project's GitHub repository.
+For questions, please visit the project's GitHub repository.
