@@ -1,7 +1,5 @@
 # Privacy Policy — Old Chrome Simulator
 
-# Privacy Policy — Old Chrome Simulator
-
 Old Chrome Simulator does not collect, store, or transmit any personal or browsing data.
 
 ## Data Storage
